@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+body, button, input {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: rgb(48,57,82);
+  color: rgb(245, 245, 245);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+header span {
+  color: rgb(61,217,217);
+}
+
+header svg {
+  transition: all 250ms;
+}
+
+header svg:hover {
+  fill: rgb(245, 245, 245);
+  padding: 10px;
+}
+
+header{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+header div {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+header input, header button {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  border: 3px solid transparent;
+}
+
+#inputValue {
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px 0 0 10px;
+  width: 60px;
+  transition: all 250ms;
+}
+
+#inputCurrency {
+  background-color: rgb(245, 245, 245);
+  width: 60px;
+  border-radius: 0 10px 10px 0;
+  transition: all 250ms;
+}
+
+#inputValue:hover, #inputCurrency:hover {
+  border-color: rgb(61,217,217);
+  font-size: 14px;
+}
+
+#searchButton {
+  width: 80px;
+  background-color: rgb(61,217,217);
+  color:rgb(245, 245, 245);
+  line-height: 0;
+  transition: all 250ms;
+}
+
+#searchButton svg {
+  transition: all 250ms;
+}
+
+#searchButton:hover {
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+#searchButton:hover svg {
+  width: 28px;
+}
+
+ /* MAIN */
+main {
+  display: none;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 15px;
+}
+
+main h3 {
+  font-size: 22px;
+  margin: 5px 0 20px 0;
+}
+
+#currencyDiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px
+}
+
+.container {
+  background-color: rgb(245, 245, 245);
+  color: rgb(48,57,82);
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  transition: all 250ms;
+}
+
+.container span {
+  color: rgb(61,217,217);
+  transition: all 250ms;
+}
+
+.container p {
+  transition: all 250ms;
+}
+
+
+
+.container:hover {
+  transform: scale(1.08);
+  justify-content: space-evenly;
+  background-color: rgb(61,217,217);
+}
+
+.container:hover  span{
+  color: rgb(48,57,82);
+}
+
+.container:hover  p{
+  color: rgb(245, 245, 245);
+}
+
+
+/* ERROR POPU */
+.swal2-popup {
+  background: rgb(245, 245, 245);
+  border-radius: 10px;
+  width: 300px;
+  
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: rgb(61,217,217);
+  border-radius: 10px;
+  border: none;
+  width: 80px;
+  text-align: center;
+  color: #fff;
+
+  transition: all 250ms;
+}
+
+.swal2-styled.swal2-confirm:hover {
+  background-image: unset;
+  filter: brightness(95%);
+}
+
+.swal2-styled.swal2-confirm:focus {
+  box-shadow: unset ;
+}
+
+.swal2-container {
+  backdrop-filter: blur(4px);
+}
+
+.prevHeader {
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  transition: all 250ms;
+}
+
+.prevHeader div {
+  margin-top: 20px;
+  transition: all 250ms;
+}
+
+
+@media(max-width: 800px) {
+  #currencyDiv {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media(max-width: 700px) {
+  #currencyDiv {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media(max-width: 600px) {
+  #currencyDiv {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  header {
+    flex-flow: column nowrap;
+  }
+
+  header div {
+    margin-top: 30px;
+
+  }
+}
+
+@media(max-width: 430px) {
+  #currencyDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  header h1 {
+    width: 200px;
+    text-align: center;
+  }
+}
