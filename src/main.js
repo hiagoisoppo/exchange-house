@@ -16,18 +16,18 @@ searchButton.addEventListener('click', (event) => {
   .then(data => {
     if (inputCurrency.value === '' || data.base !== (inputCurrency.value).toUpperCase()) {
       Swal.fire({
-        title: 'Ooops!',
-        text: 'Digite uma moeda válida para a conversão.',
+        title: 'Whoops!',
+        text: 'Please enter a valid currency for conversion.',
         confirmButtonText: 'OK'
       })
     } else if (!inputValue.value) {
       Swal.fire({
-        title: 'Ooops!',
-        text: 'Digite um valor válido para a conversão.',
+        title: 'Whoops!',
+        text: 'Enter a valid value for the conversion.',
         confirmButtonText: 'OK'
       })
     } else {
-      h3.innerHTML = `Valores referentes a ${inputValue.value} ${(inputCurrency.value).toUpperCase()}`;
+      h3.innerHTML = `Values referring to ${inputValue.value} ${(inputCurrency.value).toUpperCase()}`;
       const ratesList = Object.keys(data.rates);
       const currencyDiv = document.querySelector('#currencyDiv');
       currencyDiv.innerHTML = '';
