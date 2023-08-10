@@ -7,6 +7,7 @@ An application developed with the intent of converting your desired amount into 
 ## :bomb: Features
 
 - Lists the entered amount converted to all available currencies.
+- This project is responsive.
 
 ## :file_folder: Technologies
 
