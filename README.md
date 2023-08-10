@@ -19,7 +19,7 @@ An application developed with the intent of converting your desired amount into 
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## :closed_book: How to access
-  If you prefer to just access the application in operation, just access [https://exchangehouse.hiagoisoppo.vercel.app](https://exchangehouse.hiagoisoppo.vercel.app).
+  If you prefer to just access the application in operation, just access the [deploy](https://exchangehouse.hiagoisoppo.vercel.app).
   - Open the terminal and clone the repository.
   ```bash
     git clone git@github.com:hiagoisoppo/exchange-house.git
