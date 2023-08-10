@@ -1,6 +1,6 @@
 <img src="/public/Preview.png" alt="Application Preview" />
 
-# :moneybag: [Project Exchange House](https://exchange-house.vercel.app/)
+# :moneybag: [Project Exchange House](exchangehouse.hiagoisoppo.vercel.app)
 
 An application developed with the intent of converting your desired amount into any available exchange rate, the application is powered by a reliable source of real-time data, ensuring that you get accurate and up-to-date information.
 
@@ -19,7 +19,7 @@ An application developed with the intent of converting your desired amount into 
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## :closed_book: How to access
-  If you prefer to just access the application in operation, just access [https://exchange-house.vercel.app/](https://exchange-house.vercel.app/).
+  If you prefer to just access the application in operation, just access [exchangehouse.hiagoisoppo.vercel.app](exchangehouse.hiagoisoppo.vercel.app).
   - Open the terminal and clone the repository.
   ```bash
     git clone git@github.com:hiagoisoppo/exchange-house.git
