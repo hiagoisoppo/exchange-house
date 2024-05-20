@@ -1,6 +1,6 @@
 <img src="/public/Preview.png" alt="Application Preview" />
 
-# [Exchange House]
+# Exchange House
 
 ![Static Badge](https://img.shields.io/badge/ViteJs-4.3.9-yellow)
 ![Static Badge](https://img.shields.io/badge/SweetAlert2-11.7.5-purple)
