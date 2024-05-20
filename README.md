@@ -1,35 +1,31 @@
 <img src="/public/Preview.png" alt="Application Preview" />
 
-# :moneybag: [Project Exchange House](https://exchangehouse.hiagoisoppo.vercel.app)
+# [Exchange House]
 
-An application developed with the intent of converting your desired amount into any available exchange rate, the application is powered by a reliable source of real-time data, ensuring that you get accurate and up-to-date information.
+![Static Badge](https://img.shields.io/badge/ViteJs-4.3.9-yellow)
+![Static Badge](https://img.shields.io/badge/SweetAlert2-11.7.5-purple)
+![Static Badge](https://img.shields.io/badge/JavaScript-yellow)
+![Static Badge](https://img.shields.io/badge/ExchangeRateApi-white)
 
-## :bomb: Features
+## Descrição
+Aplicação Web, desenvolvida com o intuito de converter o valor desejado em qualquer taxa de câmbio disponível, o aplicativo é alimentado por uma fonte confiável de dados em tempo real, garantindo que você obtenha informações precisas e atualizadas.
 
-- Lists the entered amount converted to all available currencies.
-- This project is responsive.
+## Funcionalidades
+- Lista o valor inserido convertido para todas as moedas disponíveis.
+- Este projeto é responsivo.
 
-## :file_folder: Technologies
-
-- [VITE.JS](https://vitejs.dev/)
-- [JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [SWEETALERT2](https://sweetalert2.github.io/)
-- [EXCHANGERATE API](https://exchangerate.host/#/)
-- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-## :closed_book: How to access
-  If you prefer to just access the application in operation, just access the [deploy](https://exchangehouse.hiagoisoppo.vercel.app).
-  - Open the terminal and clone the repository.
+## Como acessar a aplicação
+  - Abra o terminal e faça um clone do repositório.
   ```bash
     git clone git@github.com:hiagoisoppo/exchange-house.git
   ```
-  - Install the dependencies.
+  - Acesse a pasta clonada do repositório, e instale as dependências.
   ```bash
+    cd exchange-house
     npm install
   ```
-  - Start the development server.
+  - Inicie o servidor de desenvolvimento.
   ```bash
     npm run dev
   ```
-  - Open browser at [http://localhost:3000](http://localhost:3000).
+  - Abra o navegador no endereço [http://localhost:5173](http://localhost:5173).
